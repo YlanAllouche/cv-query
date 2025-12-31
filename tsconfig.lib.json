@@ -1,0 +1,32 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "module": "ES2022",
+    "target": "ES2022"
+  },
+  "include": [
+    "src/types/**/*",
+    "src/core/**/*",
+    "src/builders/**/*",
+    "src/utils/**/*",
+    "src/index.ts",
+    "src/systematic-cv.ts"
+  ],
+  "exclude": [
+    "node_modules", 
+    "dist",
+    "examples",
+    "test",
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "src/build*.ts",
+    "src/dev-server.ts",
+    "src/watch.ts"
+  ]
+}

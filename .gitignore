@@ -1,0 +1,16 @@
+node_modules/
+.pnpm-store/
+dist/
+public/
+.env
+.env.local
+.env.production
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+.eslintcache
+examples/*/output/
+test-*/
+*.pdf
