@@ -1,0 +1,19 @@
+{
+  "name": "my-cv-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My personal CV project using systematic-cv",
+  "scripts": {
+    "build": "tsx build.ts",
+    "dev": "tsx --watch build.ts",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "systematic-cv": "file:../.."
+  },
+  "devDependencies": {
+    "tsx": "^4.6.0",
+    "typescript": "^5.3.0"
+  }
+}
+
